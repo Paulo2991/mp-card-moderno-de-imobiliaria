@@ -1,0 +1,117 @@
+@import "reset.css";
+
+.cardPrincipal{
+	background-color: white;
+	max-width: 440px;
+	width: 100%;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer{
+	overflow: hidden;
+	border-top: 6px solid var(--highlighter);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.imageContainer img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container{
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+	padding: 48px 40px;
+}
+
+.cardHeader{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.raiting i {
+  color: #FBB224;
+}
+
+.raiting span,
+.description,
+.details,
+.location {
+  color: var(--subTexts);
+}
+
+.title{
+	font-size: 1.8rem;
+}
+
+.details{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.details-title{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.location{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	margin-bottom: 10px;
+}
+
+.links{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.link{
+	background-color: var(--backgroundTexts);
+	padding: 5px 15px;
+	border-radius: 20px;
+	font-size: 0.8rem;
+	color: var(--subTexts);
+}
+
+.price{
+	font-size: 1.5rem;
+	color: var(--highlighter);
+	font-weight: bold;
+}
+
+.cardFooter{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.btn{
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.btn.visita{
+	color: white;
+	background-color: var(--highlighter);
+}
+
+.btn.corretor{
+	border: 1px solid var(--highlighter);
+	background-color: white;
+	color: var(--highlighter);
+}
